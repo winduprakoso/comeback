@@ -1,8 +1,8 @@
 <?php
 include ('koneksiperpus.php');
-$cnim=$_POST['knim'];
+$ckode=$_POST['kkode'];
 
-$hapus="delete from perpus where nim='$cnim'";
+$hapus="delete from perpus where kode='$ckode'";
 mysql_query($hapus,$konn);
 header('location;tampilperpus.php');
 

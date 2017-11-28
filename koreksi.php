@@ -106,7 +106,7 @@ div{
 			      <option value="1" <?php if($kor[5]==1){echo "selected";} ?> >KOMPUTER</option>
             <option value="2" <?php if($kor[5]==2){echo "selected";} ?> >EKONOMI</option>
             <option value="3" <?php if($kor[5]==3){echo "selected";} ?> >BAHASA</option>
-            <option value="4" <?php if($kor[5]==4){echo "selected";} ?> >MASAK</option>
+            <option value="4" <?php if($kor[5]==4){echo "selected";} ?> >KOMIK</option>
             <option value="5" <?php if($kor[5]==5){echo "selected";} ?> >SEJARAH</option>
             </select><br />
     </td>

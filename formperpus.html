@@ -5,27 +5,39 @@
 <title>PERPUSTAKAAN</title>
 <style>
 table{
-background-color:#0099FF;
-color:#00FFFF;}
+		background-color:#0099FF;
+		color:#00FFFF;
+		font-size:20px;
+		font-family:Geneva, Arial, Helvetica, sans-serif;
+		border-radius: 15px;
+		box-shadow:3px 3px 2px 2px black;
+	}
 
 h2{
-letter-spacing:5px;
-
-color:#33FFFF;
+		letter-spacing:0px;
+		font-size: 20px;
+		color:#33FFFF;
 }
 td{
-padding:10px;
+		padding:10px;
 }
 div{
-margin-top:110px;
-margin-left:750px;
-position:absolute;
+		margin-top:110px;
+		margin-left:750px;
+		position:absolute;
+		left: 857px;
+		top: 11px;
+		height: 191px;
 }
-tombol{
-font-size:10px;
-border-radius:10px 5px 10px 5px;
+.tombol{
+		font-size:20px;
+		border-radius:10px 5px 10px 5px;
 }
-
+.tombol:hover{
+				font-size:22px;
+				border-radius:20px;
+				color:#009966;
+				box-shadow:3px 3px 2px 2px;}
 </style>
 
 </head>
@@ -47,7 +59,7 @@ border-radius:10px 5px 10px 5px;
 </tr>
 <tr>
 	<td>
-    	JUDUL</td><td>:</td>
+    	JUDUL BUKU</td><td>:</td>
     <td>
         <input type="text" name="judul" size="40" maxlength="40" /><br />
     </td>
@@ -56,21 +68,21 @@ border-radius:10px 5px 10px 5px;
 	<td>
     	PENGARANG</td><td>:</td>
     <td>
-        <input type="text" name="pengarang" size="40"   /><br />
+        <input type="text" name="pengarang" size="40" maxlength="40"  /><br />
     </td>
 </tr>
 <tr>
 	<td>
     	TAHUN TERBIT</td><td>:</td>
     <td>
-		<input type="date" name="tahun" size="40" /><br />
+		<input type="date" name="tahun" /><br />
     </td>
 </tr>
 <tr>
 	<td>
     	PENERBIT</td><td>:</td>
     <td>
-        <input type="text" name="penerbit" size="40" /><br />
+        <input type="text" name="penerbit" size="40" maxlength="40" /><br />
     </td>
 </tr>
 <tr>
@@ -82,7 +94,7 @@ border-radius:10px 5px 10px 5px;
 			      <option value="1">KOMPUTER</option>
             <option value="2">EKONOMI</option>
             <option value="3">BAHASA</option>
-            <option value="4">ANAK ANAK</option>
+            <option value="4">KOMIK</option>
             <option value="5">SEJARAH</option>
             </select><br />
     </td>
